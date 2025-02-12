@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Administrator\Desktop\AOB
+-IC:\Program Files (x86)\HP\Performance Center Server\include
+-ec:\users\administrator\desktop\aob\\logfile.log
+c:\users\administrator\desktop\aob\\combined_AOB.c
+c:\users\administrator\desktop\aob\\pre_cci.c

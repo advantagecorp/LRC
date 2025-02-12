@@ -1,0 +1,67 @@
+Virtual User Script started at : 7/5/2016 3:49:25 PM
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.53.0 for Windows 2008 R2; build 1203 (Jul 05 2016 19:13:20)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0  	[MsgId: MMSG-26988]
+Run-Time Settings file: "C:\Users\Administrator\Desktop\AOB\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(4): web_url("advantage") started  	[MsgId: MMSG-26355]
+Action.c(4): Downloading resource "http://alm-aob:47001/advantage/styles/common.css" (specified by argument number 9)  	[MsgId: MMSG-26577]
+Action.c(4): Downloading resource "http://alm-aob:47001/advantage/images/bodybg.png" (specified by argument number 12)  	[MsgId: MMSG-26577]
+Action.c(4): Downloading resource "http://alm-aob:47001/advantage/FlexMenu.swf" (specified by argument number 15)  	[MsgId: MMSG-26577]
+Action.c(4): Downloading resource "http://alm-aob:47001/advantage/images/header10.png" (specified by argument number 18)  	[MsgId: MMSG-26577]
+Action.c(4): Downloading resource "http://alm-aob:47001/advantage/images/reversebg.png" (specified by argument number 21)  	[MsgId: MMSG-26577]
+Action.c(4): Redirecting "http://alm-aob:47001/advantage" (redirection depth is 0)  	[MsgId: MMSG-26694]
+Action.c(4): To location "http://alm-aob:47001/advantage/"  	[MsgId: MMSG-26693]
+Action.c(4): Found resource "http://alm-aob:47001/advantage/styles/index.css" in HTML "http://alm-aob:47001/advantage/"  	[MsgId: MMSG-26659]
+Action.c(4): Detected non-resource "http://alm-aob:47001/advantage/about.html" in "http://alm-aob:47001/advantage/"  	[MsgId: MMSG-26574]
+Action.c(4): Found resource "http://alm-aob:47001/advantage/styles/about.css" in HTML "http://alm-aob:47001/advantage/about.html"  	[MsgId: MMSG-26659]
+Action.c(4): web_url("advantage") was successful, 313897 body bytes, 1985 header bytes, 16 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(19): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(19): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(21): web_submit_form("auth") started  	[MsgId: MMSG-26355]
+Action.c(21): Submitting form to "http://alm-aob:47001/advantage/auth", Target Frame=""  	[MsgId: MMSG-27978]
+Action.c(21): Downloading resource "http://alm-aob:47001/advantage/images/hrbg.png" (specified by argument number 11)  	[MsgId: MMSG-26577]
+Action.c(21): Redirecting "http://alm-aob:47001/advantage/auth" (redirection depth is 0)  	[MsgId: MMSG-26694]
+Action.c(21): To location "http://alm-aob:47001/advantage/customer/customer_page.jsp"  	[MsgId: MMSG-26693]
+Action.c(21): Found resource "http://alm-aob:47001/advantage/javascript/ajax.js" in HTML "http://alm-aob:47001/advantage/customer/customer_page.jsp"  	[MsgId: MMSG-26659]
+Action.c(21): Found resource "http://alm-aob:47001/advantage/javascript/account.js" in HTML "http://alm-aob:47001/advantage/customer/customer_page.jsp"  	[MsgId: MMSG-26659]
+Action.c(21): Found resource "http://alm-aob:47001/advantage/styles/customer.css" in HTML "http://alm-aob:47001/advantage/customer/customer_page.jsp"  	[MsgId: MMSG-26659]
+Action.c(21): Found resource "http://alm-aob:47001/advantage/styles/accounts.css" in HTML "http://alm-aob:47001/advantage/customer/customer_page.jsp"  	[MsgId: MMSG-26659]
+Action.c(21): Found resource "http://alm-aob:47001/advantage/javascript/chat.js" in HTML "http://alm-aob:47001/advantage/customer/customer_page.jsp"  	[MsgId: MMSG-26659]
+Action.c(21): Found resource "http://alm-aob:47001/advantage/javascript/help.js" in HTML "http://alm-aob:47001/advantage/customer/customer_page.jsp"  	[MsgId: MMSG-26659]
+Action.c(21): web_submit_form("auth") was successful, 15888 body bytes, 1818 header bytes, 16 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(32): Notify: Transaction "Money Transfer" started.
+Action.c(34): web_link("Money Transfer") started  	[MsgId: MMSG-26355]
+Action.c(34): Linking to "http://alm-aob:47001/advantage/customer/transfermoney.jsp", Target Frame=""  	[MsgId: MMSG-27994]
+Action.c(34): Found resource "http://alm-aob:47001/advantage/styles/yui/build/fonts/fonts-min.css" in HTML "http://alm-aob:47001/advantage/customer/transfermoney.jsp"  	[MsgId: MMSG-26659]
+Action.c(34): Found resource "http://alm-aob:47001/advantage/styles/yui/build/calendar/assets/skins/sam/calendar.css" in HTML "http://alm-aob:47001/advantage/customer/transfermoney.jsp"  	[MsgId: MMSG-26659]
+Action.c(34): Found resource "http://alm-aob:47001/advantage/styles/transfermoney.css" in HTML "http://alm-aob:47001/advantage/customer/transfermoney.jsp"  	[MsgId: MMSG-26659]
+Action.c(34): Found resource "http://alm-aob:47001/advantage/javascript/yui/build/yahoo-dom-event/yahoo-dom-event.js" in HTML "http://alm-aob:47001/advantage/customer/transfermoney.jsp"  	[MsgId: MMSG-26659]
+Action.c(34): Found resource "http://alm-aob:47001/advantage/javascript/yui/build/calendar/calendar-min.js" in HTML "http://alm-aob:47001/advantage/customer/transfermoney.jsp"  	[MsgId: MMSG-26659]
+Action.c(34): Found resource "http://alm-aob:47001/advantage/javascript/yui/build/yahoo/yahoo-min.js" in HTML "http://alm-aob:47001/advantage/customer/transfermoney.jsp"  	[MsgId: MMSG-26659]
+Action.c(34): Found resource "http://alm-aob:47001/advantage/javascript/yui/build/event/event-min.js" in HTML "http://alm-aob:47001/advantage/customer/transfermoney.jsp"  	[MsgId: MMSG-26659]
+Action.c(34): Found resource "http://alm-aob:47001/advantage/javascript/jsvalidate.js" in HTML "http://alm-aob:47001/advantage/customer/transfermoney.jsp"  	[MsgId: MMSG-26659]
+Action.c(34): Resource "http://alm-aob:47001/advantage/javascript/ajax.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(34): Found resource "http://alm-aob:47001/advantage/javascript/advantage.js" in HTML "http://alm-aob:47001/advantage/customer/transfermoney.jsp"  	[MsgId: MMSG-26659]
+Action.c(34): Found resource "http://alm-aob:47001/advantage/javascript/transfermoney.js" in HTML "http://alm-aob:47001/advantage/customer/transfermoney.jsp"  	[MsgId: MMSG-26659]
+Action.c(34): Resource "http://alm-aob:47001/advantage/javascript/chat.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(34): Resource "http://alm-aob:47001/advantage/javascript/help.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(34): Downloading resource "http://yui.yahooapis.com/2.8.0r4/build/assets/skins/sam/sprite.png" (specified by argument number 5)  	[MsgId: MMSG-26577]
+Action.c(34): web_link("Money Transfer") was successful, 162409 body bytes, 2772 header bytes  	[MsgId: MMSG-26386]
+Action.c(43): web_submit_form("transfermoney.jsp") started  	[MsgId: MMSG-26355]
+Action.c(43): Error -27979: Requested form not found  	[MsgId: MERR-27979]
+Action.c(43): web_submit_form("transfermoney.jsp") highest severity level was "ERROR", 0 body bytes, 0 header bytes  	[MsgId: MMSG-26388]
+Action.c(43): Notify: Transaction "Money Transfer" ended with a "Fail" status (Duration: 0.3145 Wasted Time: 0.0119).
+Action.c(43): Notify: Transaction "Money Transfer" has 1 error message(s).
+Action.c(43): Notify: The 1st error message associated with transaction "Money Transfer" is "Error -27979: Requested form not found"
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
