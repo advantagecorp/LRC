@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\kbuber\Downloads\Scripts\AOS_DemoScript
+-IC:\Program Files (x86)\OpenText\LoadRunner\include
+-ec:\users\kbuber\downloads\scripts\aos_demoscript\\logfile.log
+c:\users\kbuber\downloads\scripts\aos_demoscript\\combined_AOS_DemoScript.c
+c:\users\kbuber\downloads\scripts\aos_demoscript\\pre_cci.c
