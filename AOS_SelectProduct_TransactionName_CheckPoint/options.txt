@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\kbuber\Downloads\Scripts\AOS_SelectProduct_TransactionName_CheckPoint
+-IC:\Program Files (x86)\OpenText\LoadRunner\include
+-ec:\users\kbuber\downloads\scripts\aos_selectproduct_transactionname_checkpoint\\logfile.log
+c:\users\kbuber\downloads\scripts\aos_selectproduct_transactionname_checkpoint\\combined_AOS_SelectProduct_TransactionName_CheckPoint.c
+c:\users\kbuber\downloads\scripts\aos_selectproduct_transactionname_checkpoint\\pre_cci.c
