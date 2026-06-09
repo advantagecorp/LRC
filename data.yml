@@ -1,0 +1,37 @@
+products:
+  - id: "1"
+    name: "HP Pavilion Laptop"
+    quantity: 1
+  - id: "2"
+    name: "Logitech Wireless Mouse"
+    quantity: 1
+  - id: "3"
+    name: "Bose SoundLink Wireless Headphones"
+    quantity: 3
+
+cart_actions:
+  - action: "add"
+    product_id: "1"
+  - action: "add"
+    product_id: "2"
+  - action: "remove"
+    product_id: "3"
+
+checkout:
+  address:
+    first_name: "John"
+    last_name: "Doe"
+    street: "123 Main St"
+    city: "San Francisco"
+    state: "CA"
+    zip_code: "94101"
+  payment:
+    card_type: "Visa"
+    card_number: "4111111111111111"
+    expiry_date: "12/25"
+    cvv: "123"
+
+test_data:
+  base_url: "http://advantageonlineshopping.com"
+  timeout: 30
+  retry_attempts: 3
